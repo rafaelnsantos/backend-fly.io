@@ -2,9 +2,9 @@
 
 name: Fly Deploy
 on:
-  push:
-    branches:
-      - main
+  repository_dispatch:
+    types: [deploy]
+  workflow_dispatch:
 jobs:
   deploy:
     name: Deploy app
