@@ -5,6 +5,7 @@
 
 app = 'backend-fly-io-long-brook-7630'
 primary_region = 'gig'
+swap_size_mb = 256
 
 [build]
 
